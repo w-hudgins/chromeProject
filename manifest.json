@@ -1,0 +1,28 @@
+{
+    "name": "Word Catcher",
+    "version": "1.0",
+    "description": "Save highlighted text to notes",
+    "permissions": ["tabs", "storage", "contextMenus", "clipboardRead", "background", "identity", "activeTab", "declarativeContent"],
+    "background": {
+      "page": "background.html"
+  },
+    
+  	"browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "Kermit16.png",
+        "32": "Kermit32.png",
+        "48": "Kermit48.png",
+        "128": "Kermit128.png"
+      },
+      "icons": {
+        "16": "Kermit16.png",
+        "32": "Kermit32.png",
+        "48": "Kermit48.png",
+        "128": "Kermit128.png"
+  		}
+  	},
+
+    "manifest_version": 2
+
+}
